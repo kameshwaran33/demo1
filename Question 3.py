@@ -1,12 +1,3 @@
-'''Data = [25, 32, 28, 34, 24, 31, 36, 27, 29, 30]
-mean = sum(Data) / len(Data)
-print("The mean is:", mean)
-
-
-#output
-#The mean is :27.6'''
-
-
 #median 
 Data = [2,3,4,5,6,7,8,9,3]
 Data.sort()
@@ -17,4 +8,8 @@ if(N%2==0):
 else:
     median=Data[N//2]
     print("median",median)
+
+#OUTPUT:
+#median:5
+
 
